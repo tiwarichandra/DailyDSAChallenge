@@ -1,6 +1,10 @@
 package com.tiwari.daily_dsa;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 public class SameElementRearrangeFromArray {
     public static void main(String[] args) {
@@ -18,5 +22,11 @@ public class SameElementRearrangeFromArray {
             }
         }
         System.out.println(Arrays.toString(arr));
+
+//        List<String> arr1 = new ArrayList<>(Arrays.asList("java","ruby","python","angular","java","HTML","angular"));
+
+//        arr.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
+//                .forEach((s, aLong) -> System.out.println(s+","+aLong));
+
     }
 }
