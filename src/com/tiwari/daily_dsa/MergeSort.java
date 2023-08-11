@@ -31,7 +31,6 @@ public class MergeSort {
         int[] left_arr = new int[mid];
         int[] right_arr = new int[len - mid];
 
-        //Dividing array into two and copying into two separate arrays
         int k = 0;
         for (int i = 0; i < len; ++i) {
             if (i < mid) {
