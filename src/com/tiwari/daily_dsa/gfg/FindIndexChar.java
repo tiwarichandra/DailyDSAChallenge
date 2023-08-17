@@ -13,11 +13,11 @@ public class FindIndexChar {
 
         int n = 5;
         int[] arr = {1, 2, 3, 4, 5};
-        Float sum = 0.0f;
+        Float sum = (Float) 0.0f;
         for (int i = 0; i<n; i++) {
             sum += arr[i];
         }
-        Float f = sum /n;
+        Float f = (Float) (sum /n);
 
 
 
